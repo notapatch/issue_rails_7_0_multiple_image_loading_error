@@ -2,6 +2,8 @@
 
 <h1>Products Rails 7.0.1</h1>
 
+<h2>Images from active storage</h2>
+
 <table>
   <thead>
     <tr>
@@ -17,3 +19,14 @@
     <% end %>
   </tbody>
 </table>
+
+<% if false %>
+   <%# Static images works without loading issue %>
+  <h2>Images from static directory</h2>
+
+  <img src="/images/image_0.png">
+  <img src="/images/image_1.png">
+  <img src="/images/image_2.png">
+  <img src="/images/image_3.png">
+  <img src="/images/image_4.png">
+<% end %>
